@@ -10,7 +10,7 @@ With zone.js Angular 1.x application does not need to call $scope.$apply at the 
 
 ```javascript
 bower install angular1-zones
-
+```
 
 Add script references to both zone.js and angular1-zones.js
 Your html should look something like
@@ -36,13 +36,13 @@ Your html should look something like
     <script src="HomeCtrl.js"></script>
 </body>
 </html>
-
+```
 
 Add module dependency. For example,
 
 ```javascript
 angular.module("MyApp", ["ngZone"]);
-
+```
 
 Now, inside the controller you can use any browser native async API and don't worry about $scope.$apply. For example,
 
@@ -54,7 +54,7 @@ function HomeCtrl($scope) {
         }, 1000);
     }
 }
-
+```
 
 ## See also
 * [zone.js](https://github.com/btford/zone.js/) - zone.js github home
