@@ -1,0 +1,21 @@
+{
+  "name": "angular1-zones",
+  "main": "angular1-zones.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/oricalvo/angular1-zones",
+  "authors": [
+    "Ori Calvo"
+  ],
+  "description": "Integrate zone.js into Angular 1.X application",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "zone": "~0.5.1"
+  }
+}
