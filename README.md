@@ -2,9 +2,9 @@
 
 Integrate zone.js into Angular 1.X application
 
-## What's a Angular1-Zones?
+## What's Angular1-Zones?
 
-With zone.js Angular 1.x application does need to call $scope.$apply at the end of an asynchronous activity. Zone.js is able to monitor any async activity and inform our code run a digest cycle.
+With zone.js Angular 1.x application does not need to call $scope.$apply at the end of an asynchronous activity. Zone.js is able to monitor any async activity and inform our code run a digest cycle.
 
 ### Installing
 
